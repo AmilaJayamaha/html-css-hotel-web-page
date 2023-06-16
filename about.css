@@ -1,0 +1,177 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	background-color:#000;
+}
+.header
+{
+	background-color:#FFF;
+	height:90px;
+	width:100%;
+	border-color:#FFF;
+	background-color:#FFF;
+}
+#logo
+{
+	float:left;
+	display:inline-block;
+	margin:5px;
+	margin-left:20px;
+	
+}
+#menu
+{
+	float:right;
+	list-style:none;
+	margin-top:40px;
+	margin-right:20px;
+}
+#menu li
+{
+	display:inline-block;
+	background-color:#FFF;
+	padding:10px;
+}
+#main
+{
+	width: 1300px;
+	height: 444px;
+	
+	margin:auto;
+	background-color:#0CC;
+	margin-top:10px;
+}
+#main img
+{
+	width:1300px;
+	margin:auto;
+}
+	
+
+#menu li a 
+{
+	color: #FFF;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif,;
+	font-size:15px;
+	border-radius:8px;
+	
+}
+ #menu li.active a
+{
+	border:1px solid #000;
+}
+#menu li a:hover
+{
+	border: 0px solid #000;
+	background-color:#999;
+	font-size:20px;
+}
+#clear
+{
+	clear:both;
+}
+#content
+{
+	width:1300px;
+	height:1900px;
+	background-color:#CFF;
+	margin:auto;
+	margin-top:10px;
+}
+#text
+{
+	font-size:24px;
+	font-style:italic;
+	text-align:left;
+	margin-left:30px;
+	text-indent:40px;
+	color:#303;
+	font-weight:bold;
+	background-color:#CFF;
+}
+#mid
+{
+	font-size:18px;
+	color:#000;
+	text-align:left;
+	
+	background-color:#CFF;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+#list
+{
+	list-style-type:disc;
+	color:#006;
+	background-color:#CFF;
+	font-size:19px;
+	text-align:center;
+	margin-top:5px;
+	
+}
+#list li
+{
+	background-color:#CFF;
+	text-align:left;
+	margin:auto;
+	margin-left:500px;
+}
+#footer
+{
+	background-color:#666;
+	width:1300px;
+	height:150px;
+	margin-top:20px;
+	margin:auto;
+	
+	
+	
+	
+}
+
+#title2
+{
+	color:#FFF;
+	text-align:center;
+	font-weight:bold;
+	font-size:28px;
+	background-color:#F00;
+	margin-top:15px;
+}
+#title3
+{
+	background-color:#666;
+	color:#000;
+	text-align:left;
+	margin-top:10px;
+	font-size:18px;
+	float:left;
+	font-weight:bold;
+	
+}
+#email
+{
+	background-color:#666;
+	color:#000;
+	text-align:left;
+	margin-top:10px;
+	font-size:18px;
+	float:right;
+	font-weight:bold;
+	
+}
+#footer marquee
+{
+	marquee-style:slide;
+	marquee-direction:forward;
+	marquee-speed:fast;
+	color:#00F;
+	text-align:center;
+	margin-top:10px;
+	float:left;
+	font-size:24px;
+}
